@@ -18,6 +18,8 @@ Members: [SK Shahnawaz](https://github.com/skshahnawaz), [Swadesh Jana](https://
 
 Institute Name: Jadavpur University
 
+Go through this [presentation](https://github.com/zulkernine/ShopSafe/blob/master/eQ%20Presentation.pdf) for details.
+
 ## Deployed Website
 URL: 
 
