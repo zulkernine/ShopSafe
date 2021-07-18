@@ -10,62 +10,62 @@ import CardContent from "@material-ui/core/CardContent";
 
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        textAlign: "center",
+  root: {
+    textAlign: "center",
+  },
+  hero: {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://emerging-europe.com/wp-content/uploads/2018/12/b_retail_1_epp_galaxy_szczecin-990x556.jpg')`,
+    height: "600px",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "#fff",
+    fontSize: "4rem",
+    [theme.breakpoints.down("sm")]: {
+      height: 300,
+      fontSize: "3em",
     },
-    hero: {
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://storage.googleapis.com/shopsafe-ju/eQ-banner.png')`,
-        height: "600px",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        position: "relative",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        color: "#fff",
-        fontSize: "4rem",
-        [theme.breakpoints.down("sm")]: {
-            height: 300,
-            fontSize: "3em",
-        },
+  },
+  blogsContainer: {
+    paddingTop: theme.spacing(3),
+  },
+  promo: {
+    backgroundColor: "#fff5ec",
+    marginBottom: 20,
+  },
+  blogTitle: {
+    fontWeight: 800,
+    paddingBottom: theme.spacing(3),
+  },
+  card: {
+    maxWidth: "100%",
+    elevation: 0,
+  },
+  media: {
+    height: 350,
+    [theme.breakpoints.down("sm")]: {
+      height: 100,
     },
-    blogsContainer: {
-        paddingTop: theme.spacing(3),
-    },
-    promo: {
-        backgroundColor: "#fff5ec",
-        marginBottom: 20,
-    },
-    blogTitle: {
-        fontWeight: 800,
-        paddingBottom: theme.spacing(3),
-    },
-    card: {
-        maxWidth: "100%",
-        elevation: 0,
-    },
-    media: {
-        height: 350,
-        [theme.breakpoints.down("sm")]: {
-            height: 100,
-        },
-    },
-    cardActions: {
-        display: "flex",
-        margin: "0 10px",
-        justifyContent: "space-between",
-    },
-    cardContent: {
-        alignItems: "center",
-    },
-    author: {
-        display: "flex",
-    },
-    paginationContainer: {
-        display: "flex",
-        justifyContent: "center",
-    },
+  },
+  cardActions: {
+    display: "flex",
+    margin: "0 10px",
+    justifyContent: "space-between",
+  },
+  cardContent: {
+    alignItems: "center",
+  },
+  author: {
+    display: "flex",
+  },
+  paginationContainer: {
+    display: "flex",
+    justifyContent: "center",
+  },
 }));
 
 function Home() {
