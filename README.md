@@ -5,7 +5,7 @@ Queue for the new normal
 
 ## Table of Contents
 * [General Info](#general-info)
-* [Website](#website)
+* [Website](#deployed-website)
 * [Problem](#problem)
 * [Our Solution](#our-solution) 
 * [Technologies](#technologies)
