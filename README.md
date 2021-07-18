@@ -5,7 +5,7 @@ Queue for the new normal
 
 ## Table of Contents
 * [General Info](#general-info)
-* [Website](#website)
+* [Website](#deployed-website)
 * [Problem](#problem)
 * [Our Solution](#our-solution) 
 * [Technologies](#technologies)
@@ -63,3 +63,15 @@ $ git clone https://github.com/Swadesh13/ShopSafe
 1. Clone repo and create a new branch: `$ git checkout https://github.com/Swadesh13/ShopSafe.git -b name_for_new_branch`.
 2. Make changes and test
 3. Submit Pull Request with comprehensive description of changes
+
+
+## Few screenshots 
+
+### Available shops within certain distance
+![shops](screenshots/customer_dashboard.png)
+
+### Customer profile
+![profile](screenshots/profile.png)
+
+### Shop page
+![shop](screenshots/shop_page.png)
